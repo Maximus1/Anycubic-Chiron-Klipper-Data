@@ -56,20 +56,20 @@ Die Konfiguration ist für den originalen Anycubic Leveling-Puck (Probe) vorbere
    serial: /dev/serial/by-id/usb-1a86_USB_Serial-if00-port0 # <-- DEINE ID HIER
    Deine ID findest du über das Terminal mit: ls /dev/serial/by-id/*
 
-4. **Neustart: Führe RESTART in der Klipper-Konsole aus.
+4. **Neustart: Führe RESTART in der Klipper-Konsole aus.**
 
-🔧 Wichtige Befehle (Makros)
+## 🔧 Wichtige Befehle (Makros)
 Die macros.cfg stellt folgende Befehle bereit:
 
-G32: Komplettes Homing inkl. Z-Tilt Alignment.
+* **G32:** Komplettes Homing inkl. Z-Tilt Alignment.
 
-START_PRINT: Automatisches Aufheizen und Startvorbereitung.
+* **START_PRINT:** Automatisches Aufheizen und Startvorbereitung.
 
-END_PRINT: Düse wegfahren und Heizer ausschalten.
+* **END_PRINT:** Düse wegfahren und Heizer ausschalten.
 
-CANCEL_PRINT: Sicherer Abbruch des aktuellen Jobs.
+* **CANCEL_PRINT:** Sicherer Abbruch des aktuellen Jobs.
 
-⚠️ Disclaimer
+## ⚠️ Disclaimer
 Die Nutzung erfolgt auf eigene Gefahr. Prüfe vor dem ersten Homing immer die Endstopp-Funktion mit dem Befehl QUERY_ENDSTOPS, um Schäden an der Mechanik zu vermeiden.
 
 Erstellt für die Klipper-Community & Anycubic Chiron Besitzer.
